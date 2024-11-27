@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Clients Details</h1>
+    <h2>Enter the details of all incoming clients</h2>
+    <form method="post">
+    <div><label for="ClientName">Client Name*</label>
+    <input type="text" id="ClientName" required><br><br>
+</div>
+    <div><label for="Company">Company*</label>
+        <input type="text" id="Company"required><br><br>
+    </div>
+    <div>
+        <label for="title">Title*</label>
+        <input type="text" id="title" required><br><br>
+    </div>
+    <div><label for="Departament">Departament*</label>
+    <select id="Departament">
+        <option>-select-</option>
+        <option value="Marketing">Marketing</option>
+        <option value="Human Resources">Human Resources</option>
+        <option value="Finance">Finance</option>
+        <option value="Media Marketing">Media Marketing</option>
+    </select><br><br>
+    </div>
+    <div>
+    <label for="Preferredcontactmethod">Preferred contact method*</label>
+    <input type="radio" id="Email" value="email" name="Preferredcontactmethod">
+    <label for="Email">Email*</label>
+    <input type="radio" id="Phone" value="Phone" name="Preferredcontactmethod">
+    <label for="Phone">Phone*</label></div><br>
+    <div>
+        <label for="Companiaddress">Company address*</label><br><br>
+        <input type="text" id="Companiaddress" placeholder="Street address"><br><br>
+        <input type="text" placeholder="Address line2"><br><br>
+        <input type="text" placeholder="City"><br><br>
+        <input type="text" placeholder="State/region/Province" ><br><br>
+        <input type="text" placeholder="Post/Zip Code"><br><br>
+        <div><br>
+            <label for="country">Country</label>
+            <select id="Country">
+            <option>-select-</option>
+            <option value="All">Albania</option>
+            <option value="It">Italia</option>
+            </select><br><br>
+        </div><br>
+    </div>
+
+    <div>
+    <label for="Companywebsite">Company website*</label>
+    <input type="url" id="Companywebsite"><br>
+    </div><br>
+    <div>
+        <label for="Company Logo">Company Logo</label>
+        <input type="file" id="CompanyLogo" placeholder="Choose file"><br>
+    </div><br>
+    <div>
+        <label for="Workinghours">Working hours*</label> 
+        <input type="number" id="Workinghours">
+    </div><br>
+    <div>
+        <label for="Workingdays">Working days*</label> 
+        <input type="number" id="Workingdays">  
+    </div><br>
+       <div> 
+        <label for="BillingCycle">Billing Cycle*</label> 
+        <input type="date" id="BillingCycle">
+    </div><br>
+    <div>
+        <label for="Addressinformation">Address information</label>
+        <textarea id="Addressinformation"></textarea>
+       
+    </div><br><br>
+    <input type="submit">
+
+    </form>
+    
+</body>
+</html>

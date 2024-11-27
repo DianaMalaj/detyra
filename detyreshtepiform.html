@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Create Acount</h1>
+    <p><B>*denotes mandatory</B></p>
+    <form method="get">
+        <label for="FirstName">First name*</label><br>
+        <input type="text" id="FirstName" placeholder="enter your first name" required><br>
+        <label for="Lastname">Last name*</label><br>
+        <input type="text" id="LastName" placeholder="enter your last name" required><br>
+        <label for="Email">Email*</label><br>
+        <!-- Ketu type duhet email -->
+        <!-- <input type="text" id="Email" placeholder="enter your email" required> <br> -->
+        <input type="email" id="Email" placeholder="enter your email" required> <br>
+        <label for="Password">Password*</label><br>
+        <!-- Ketu type duhet password -->
+        <!-- <input type="text" id="Password" placeholder="enter your password" required><br> -->
+        <input type="password" id="Password" placeholder="enter your password" required><br>
+        <label for="Confirmpassword">Confirm Password*</label><br>
+        <!-- Gjithashtu type duhet password -->
+        <!-- <input type="text" id="Confirmpassword" placeholder="confirm your password again" required><br> -->
+        <input type="password" id="Confirmpassword" placeholder="confirm your password again" required><br>
+        <label for="Gender">Gender:</label><br>
+        <input type="radio" id="Male" value="Male" name="Gender">
+        <label for="Male">Male</label>
+        <input type="radio" id="Female" value="Female" name="Gender">
+        <label for="Female">Female</label><br>
+        <label for="Hobbies">Hobbies:</label><br>
+        <input type="checkbox" id="music" value="music" name="Hobbies">
+        <label for="Music">Music</label>
+        <input type="checkbox" id="Sports" value="Sports" name="Hobbies">
+        <label for="Sports">Sports</label>
+        <input type="checkbox" id="Travel" value="Travel" name="Hobbies">
+        <label for="Travel">Travel</label>
+        <input type="checkbox" id="Movies" value="Movies" name="Hobbies"><br>
+        <label for="Movies">Movies</label>
+        <label for="Profession">Profession</label>
+        <select id="Profession">
+            <option value="Webdeveloper"> Web developer</option>
+            <option value="Interiordesign"> Interior design</option>
+            <option value="Webdesign">Web design </option>
+        </select><br>
+        <label for="Uploadprofilepicture">Upload Profile Picture</label><br>
+        <input type="file" id="Uploadprofilepicture"><br>
+        <label for="Age">Age</label><br>
+        <input type="number" id="Age" placeholder=""><br>
+        <label for="Bio">Bio</label><br>
+        <table>
+            <td>
+                <!-- Ketu duhet te vendoset id="Bio" -->
+                <!-- <textarea rows="7" cols="20"></textarea> -->
+                <textarea rows="7" cols="20" id="Bio"></textarea>
+            </td>
+        </table>
+        <!-- Per butonin duhet input me type="submit" dhe id duhet te jete value-->
+        <!-- <input type="" id="Create"> -->
+        <input type="submit" value="Create">
+    </form>
+
+
+</body>
+
+</html>
